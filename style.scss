@@ -7,3 +7,28 @@
 body {
     background: radial-gradient(#fff0f0, #f8f8ff);
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+
+    .icons i {
+        margin-left: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    ul li {
+        display: inline;
+        margin-left: 20px;
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            font-family: sans-serif;
+            color: #181818;
+        }
+    }
+}
